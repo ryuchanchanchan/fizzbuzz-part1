@@ -1,12 +1,12 @@
 number = int(input("1つの自然数を入れてね: "))
 
 if number % 15 == 0:
-    output = "FizzBuzz"
+    print("FizzBuzz")
 elif number % 5 == 0:
-    output = "Buzz"
+    print("Buzz")
 elif number % 3 == 0:
-    output = "Fizz"
+    print("Fizz")
 else:
-    output = str(number)
+    print(str(number))
 
-print(output)
+print(number)
