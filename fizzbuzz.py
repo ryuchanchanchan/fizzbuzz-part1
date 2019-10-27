@@ -9,16 +9,5 @@ def fizzbuzz_convert(number):
     return str(number)
 
 
-result = fizzbuzz_convert(1)
-print(result)
-result = fizzbuzz_convert(2)
-print(result)
-
-result = fizzbuzz_convert(5)
-print(result)
-
-result = fizzbuzz_convert(15)
-print(result)
-
-result = fizzbuzz_convert(100)
-print(result)
+for number in range(1, 101):
+    print(fizzbuzz_convert(number))
